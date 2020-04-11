@@ -1,0 +1,41 @@
+html{
+    font-family: sans-serif;
+}
+
+body{
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+.lastResult {
+    color: white;
+    padding: 3px;
+}
+
+h1, p{
+    color: teal;
+}
+label{
+    color: tomato;
+}
+
+.guessSubmit{
+    background: teal;
+    color: black;
+    
+}
+.guessSubmit:hover{
+    background: tomato;
+    color: thistle;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+}
+
+.guessField{
+    border-radius: 7px;
+    outline: none;
+}
